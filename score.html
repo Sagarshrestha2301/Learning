@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content p {
+            color: yellow;
+        }
+
+        p {
+            color: red;
+        }
+
+        /* 0 0 1 */
+        p {
+            color: green;
+        }
+
+        /*  1id 0class 0tag  */
+        #red {
+            color: red;
+        }
+
+        /* 0 1 0 */
+        .teal {
+            color: teal;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>specificity scores</h1>
+    id>class>tag/element
+
+    <div class="content">
+
+        <p class="teal" id="red">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis in veritatis
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis in veritatis
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis in veritatis
+        </p>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad et quasi eius accusamus vitae repellat, hic ut
+        distinctio fugit iste molestiae tenetur similique dolore rem officia ipsam omnis officiis obcaecati!</p>
+</body>
+
+</html>
